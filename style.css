@@ -265,6 +265,7 @@ nav img:last-child {
 
 /******* SECTION-5 LAST NAVIGATION PART ******/
 
+
 .last-nav {
   font-weight: 400;
   font-size: 20px;
@@ -273,6 +274,9 @@ nav img:last-child {
   margin-bottom: 50px;
 }
 
+.last-nav a {
+  text-decoration: none;
+}
 .last-nav .soc-icon {
   padding: 7px;
   margin-bottom: 20px;
@@ -295,7 +299,11 @@ li {
   padding-bottom: 15px;
 }
 
-li:hover {
+li a {
+  color: #555555;
+}
+
+li a:hover {
   color: #ff3998;
   transition: 0.2s;
 }
